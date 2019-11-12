@@ -15,7 +15,7 @@ var files []string
 
 func main() {
 	var err error
-	files, err = findAll("github/gitignore")
+	files, err = findAll("${GOPATH}/src/github.com/dongri/github/gitignore")
 	if err != nil {
 		fmt.Println(err)
 		os.Exit(1)
