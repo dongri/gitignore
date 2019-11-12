@@ -1,6 +1,6 @@
 # gitignore
 
-## Install
+## Installation
 ```
 $ cd $GOPATH
 $ git clone https://github.com:dongri/gitignore --recursive
