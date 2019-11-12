@@ -15,7 +15,7 @@ var files []string
 
 func main() {
 	var err error
-	files, err = findAll("gitignore")
+	files, err = findAll(".gitignore")
 	if err != nil {
 		fmt.Println(err)
 		os.Exit(1)
