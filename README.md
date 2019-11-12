@@ -1,5 +1,7 @@
 # gitignore
 
+![gitignore](https://github.com/dongri/images/blob/master/gitignore.gif?raw=true "demo")
+
 ## Installation
 ```
 $ cd $GOPATH
