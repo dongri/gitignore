@@ -33,7 +33,7 @@ func main() {
 		}
 	}
 	fmt.Println("Generated: " + in)
-	err = exec.Command("cp", targetFile, "./").Run()
+	err = exec.Command("cp", targetFile, "./.gitignore").Run()
 	if err != nil {
 		fmt.Println(err)
 		os.Exit(1)
